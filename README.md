@@ -6,7 +6,7 @@ Getting started
 
 1. First you have to install all dependencies.
     
-1.1. Go into the TEMdatabase directory.
+1.1. Go into the TEMdatabase directory on your linux terminal.
 
 1.2. Run the installaion line from within the TEMdatabase directory: python3 install_prerequisites.py 
 
