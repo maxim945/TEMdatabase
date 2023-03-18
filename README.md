@@ -1,5 +1,5 @@
 # TEMdatabase
-TEM adaptive database for a personal update and discovery on new TEM beta lactamases
+TEM adaptive database for a personal update and discovery of new TEM beta lactamases
 
 
 Getting started
