@@ -4,18 +4,22 @@ TEM adaptive database for a personal update and discovery on new TEM beta lactam
 
 Getting started
 
-1.    First you have to install all dependencies./n
-1.2   go into the TEMdatabase directory./n
-1.3   run the installaion line from within the TEMdatabase directory: python3 install_prerequisites.py /n
-1.3.1 Alternatively you can go to Install_Packages directory,
-      open the Install.ipynb file and run it from jupyter notebook./n
+1.    First you have to install all dependencies.
+    
+2. Go into the TEMdatabase directory.
 
-After the installation is done./
+3. Run the installaion line from within the TEMdatabase directory: python3 install_prerequisites.py 
 
-2.    Collect the data with which you will populate your database./
-2.1   Open the BLAST.ipynb file.
-2.2   You will need a seed fasta file to start from doing your BLAST search.(as an example TEM-1 beta lactamse).
-2.3   The serach parameters can be changed based on the inserted parameters. For further help:
+4. Alternatively you can go to Install_Packages directory, open the Install.ipynb file and run it from jupyter notebook.
+
+After the installation is done.
+
+2.    Collect the data with which you will populate your database.
+3.    
+4.1   Open the BLAST.ipynb file.
+
+5.2   You will need a seed fasta file to start from doing your BLAST search.(as an example TEM-1 beta lactamse).
+6.3   The serach parameters can be changed based on the inserted parameters. For further help:
       https://biopython.org/docs/1.75/api/Bio.Blast.NCBIWWW.html
 2.4   The result is being saved as an XML file in the document directory.
 
