@@ -42,5 +42,5 @@ After the datamodel was created.
 4.2   The data model will be converted to a database, this will be an empty database.
 
 4.3   Lastly the database will be populated based on on the information that you have on your XML document
-      and based on the inserted extraction headers. Do not run the populate cell more then once or else copies of the same data will be created.
+      and based on the inserted extraction headers. Do not run the populate cell more than once or else copies of the same data will be created.
       
