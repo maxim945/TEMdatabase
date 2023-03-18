@@ -23,7 +23,7 @@ After the installation is done.
 2.3. The serach parameters can be changed based on the inserted parameters. For further help:
       https://biopython.org/docs/1.75/api/Bio.Blast.NCBIWWW.html
       
-3. The result is being saved as an XML file in the document directory.
+3. The result is being saved as an XML file inside the Document directory.
 
 3.1. Data Model creation.
     
