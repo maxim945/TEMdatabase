@@ -29,7 +29,7 @@ After the installation is done.
     
 3.1. There are 2 option to create the data model.
 
-3.1.1 The first option is to take the PyEED template from our PyEED Github webpage (https://github.com/PyEED)change) the template file as instructed on the PyEED README and create your own repository.
+3.1.1 The first option is to take the PyEED template from our PyEED Github webpage (https://github.com/PyEED) change the template file as instructed on the PyEED README and create your own repository.
 
 3.1.2 You can create your data model locally, just add the required changes to the markdown document and run it locally. The local file is located in Documents/DataModel/TEMdatamodelProtein.md.
 
