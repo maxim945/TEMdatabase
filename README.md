@@ -4,11 +4,11 @@ TEM adaptive database for a personal update and discovery on new TEM beta lactam
 
 Getting started
 
-1.    First you have to install all dependencies./
-1.2   go into the TEMdatabase directory./
-1.3   run the installaion line from within the TEMdatabase directory: python3 install_prerequisites.py /
+1.    First you have to install all dependencies./n
+1.2   go into the TEMdatabase directory./n
+1.3   run the installaion line from within the TEMdatabase directory: python3 install_prerequisites.py /n
 1.3.1 Alternatively you can go to Install_Packages directory,
-      open the Install.ipynb file and run it from jupyter notebook./
+      open the Install.ipynb file and run it from jupyter notebook./n
 
 After the installation is done./
 
