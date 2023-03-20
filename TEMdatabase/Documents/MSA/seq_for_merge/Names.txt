@@ -1,0 +1,11 @@
+1.	TEM-1: This is the first TEM beta-lactamase to be identified and is widely distributed among Gram-negative bacteria. Its crystal structure was solved in 1983 and is widely used as a reference for other beta-lactamase structures.
+2.	TEM-2: This beta-lactamase is closely related to TEM-1 and is also commonly found in Gram-negative bacteria. Its crystal structure was solved in 1991 and is highly similar to the TEM-1 structure.
+3.	TEM-52: This is a Class A beta-lactamase that is commonly found in Enterobacteriaceae. Its crystal structure was solved in 2009 and has a unique feature of a hydrophobic cavity near the active site.
+4.	TEM-116: This is a Class A beta-lactamase that is commonly found in Escherichia coli. Its crystal structure was solved in 2014 and has a distinctive feature of a large hydrophobic pocket close to the active site.
+5.	TEM-163: This is another Class A beta-lactamase that is commonly found in Escherichia coli. Its crystal structure was solved in 2018 and has a distinctive feature of a long loop near the active site.
+6.	TEM-30: This beta-lactamase is commonly found in Escherichia coli and has a broad substrate spectrum. Its crystal structure was solved in 1995.
+7.	TEM-31: This beta-lactamase is commonly found in Enterobacteriaceae and has a broad substrate spectrum. Its crystal structure was solved in 1999.
+8.	TEM-34: This beta-lactamase is commonly found in Escherichia coli and has a broad substrate spectrum. Its crystal structure was solved in 1994.
+9.	TEM-72: This beta-lactamase is commonly found in Enterobacteriaceae and has a broad substrate spectrum, including resistance to extended-spectrum cephalosporins. Its crystal structure was solved in 2002.
+10.	TEM-3: This beta-lactamase is commonly found in Enterobacteriaceae and has a broad substrate spectrum. Its crystal structure was solved in 1988.
+

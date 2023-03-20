@@ -1,0 +1,69 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ./Documents/HMM/Profile_HMM.hmm
+# target sequence database:        ./Documents/Numbering_Scheme/RefSeq/seq_ref_tem_1.fasta
+# output directed to file:         ./Documents/Numbering_Scheme/numbering/TEM-1_numbering.txt
+# sequence reporting threshold:    E-value <= 0.01
+# domain reporting threshold:      E-value <= 0.01
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Profile_HMM  [M=286]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                             -----------
+   1.5e-191  620.9   0.1   1.7e-191  620.7   0.1    1.0  1  sid|842|pid|818|hfid|1|sfid|1|gi|46015634|taxid|562|  
+
+
+Domain annotation for each sequence (and alignments):
+>> sid|842|pid|818|hfid|1|sfid|1|gi|46015634|taxid|562|  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  620.7   0.1  1.7e-191  1.7e-191      24     286 .]       1     263 []       1     263 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 620.7 bits;  conditional E-value: 1.7e-191
+                                           Profile_HMM  24 hpetlvkvkdaedklgarvgyieldlnsgkilesfrpeerfpmlstfkvllcgavls 80 
+                                                           hpetlvkvkdaed+lgarvgyieldlnsgkilesfrpeerfpm+stfkvllcgavls
+  sid|842|pid|818|hfid|1|sfid|1|gi|46015634|taxid|562|   1 HPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLS 57 
+                                                           9******************************************************** PP
+
+                                           Profile_HMM  81 rvdagqeqlgrrihysqndlveyspvtekhltdgmtvrelcsaaitmsdntaanlll 137
+                                                           rvdagqeqlgrrihysqndlveyspvtekhltdgmtvrelcsaaitmsdntaanlll
+  sid|842|pid|818|hfid|1|sfid|1|gi|46015634|taxid|562|  58 RVDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLL 114
+                                                           ********************************************************* PP
+
+                                           Profile_HMM 138 ttiggpkeltaflhnmgdhvtrldrwepelneaipnderdttmpaamattlrklltg 194
+                                                           ttiggpkeltaflhnmgdhvtrldrwepelneaipnderdttmpaamattlrklltg
+  sid|842|pid|818|hfid|1|sfid|1|gi|46015634|taxid|562| 115 TTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPAAMATTLRKLLTG 171
+                                                           ********************************************************* PP
+
+                                           Profile_HMM 195 elltlasrqqlidwmeadkvagpllrsalpagwfiadksgagergsrgiiaalgpdg 251
+                                                           elltlasrqqlidwmeadkvagpllrsalpagwfiadksgagergsrgiiaalgpdg
+  sid|842|pid|818|hfid|1|sfid|1|gi|46015634|taxid|562| 172 ELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDG 228
+                                                           ********************************************************* PP
+
+                                           Profile_HMM 252 kpsrivviyttgsqatmdernrqiaeigaslikhw 286
+                                                           kpsrivviyttgsqatmdernrqiaeigaslikhw
+  sid|842|pid|818|hfid|1|sfid|1|gi|46015634|taxid|562| 229 KPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW 263
+                                                           *********************************** PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (286 nodes)
+Target sequences:                          1  (263 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.01s 00:00:00.01 Elapsed: 00:00:00.03
+# Mc/sec: 2.34
+//
+[ok]
