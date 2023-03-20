@@ -4,6 +4,10 @@ TEM adaptive database for a personal update and discovery of new TEM beta lactam
 
 Getting started
 
+Create a directory from which you would like to intasll and operate your database
+Use this line within your directory to clone the data : git clone https://github.com/PyEED/TEMdatabase.git
+
+
 1. First you have to install all dependencies.
     
 1.1. Go into the TEMdatabase directory on your linux terminal.
