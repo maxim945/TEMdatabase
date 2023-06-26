@@ -47,4 +47,40 @@ After the datamodel was created.
 
 4.3   Lastly the database will be populated based on on the information that you have on your XML document
       and based on the inserted extraction headers. Do not run the populate cell more than once or else copies of the same data will be created.
+
+5.    ClusterTEM1.ipynb is an exampample file to run the complete pipeline.
+
+5.1   Import the data model and create a database.
+
+5.2   Do a BLAST of protein to DNA search and save within an XML document.
+
+5.3   Use the data collected to connected to the external database of genbank, extract all relevant data.
+
+5.4   Populate the database.
+
+6.    numbering_scheme.ipynb, is created to generate a universal numbering of protein or DNA sequences. it generates start and stop positions, and keeps all sequences bounded to have the same length. Alignmrnt of each amino acid to amino acid are numbered, and after the numbering process is done annnotation can be done.
+
+6.1   The numbering scheme process starts by choosing the 5-15 best protein sequences, they should have as much as possible information about them, well studied and agreed upon sequences. those sequences must have relatively high level of identity 60% and above.
+
+6.2   In the next step a Multiple Sequence Alignment(MSA) should be done. in this case ClustalW is used.
+
+6.3   Out of this MSA a profile HMM is created.
+
+6.4   The bounding of the sequences is done by taking a reference sequence and aligning it to the profile HMM. The reference sequence should be a well agreed sequence by the scientific community, this sequence will be aligned to the profile HMM and the numbering from for example 1-263  will be extracted.
+
+6.5   The quesry sequences will be aligned to the profile HMM, each of those sequences will be bounded by the numbering from the reference sequence.
+
+6.6   A numbering scheme will be created, so that all of the sequences are aligned and all of their lengths are exact. 
+
+7.    Within the numbering_scheme.ipynb file there is also a direct connection to the to the network creation in networkx
+
+7.1   in this case the network runs on a matrix which is build based on one point mutation. Any matrix can be applied to this system.
+
+7.2   There is a grid search for the layout algorithm of the networkx. For the spring layout, the algorithm works as followed: there is a "seed" this seed drops all of your data points into space, starting position in space, from that point an "itiration" process runs and using the parameter "K" wich is the attraction force between the datapoints, the data points are restructured. The closer data points will be more denstly clustered and a more distant ones will move further.
+
+7.3   The seeds will run by utilizing the numbering of wanted seed numbers, for eample, from 1-51, you will see 51 graphs, from seed 1-51. take the best seed.
+
+7.4   After the grid search is done and you visually chose the best network, use the best seed to create a network.
+
+
       
