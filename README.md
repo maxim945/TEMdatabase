@@ -82,5 +82,15 @@ After the datamodel was created.
 
 7.4   After the grid search is done and you visually chose the best network, use the best seed to create a network.
 
+8.    The DNAnetwork.ipynb pipeline is very similar to the numbering_scheme.ipynb pipeline, but it runs a pipe line for the DNA sequences.
+
+8.1   It has a feature which detects reverse sequences.It is done by taking arbitrary a sequence, running all sequences based on a pairwise alignment score.
+
+8.2   Taking the lowest score as a reverse sequence.
+
+8.3   It will show a true or false sequence based on the score.
+
+8.4   The True reverse will be switched back into the correct oriantation.
+
 
       
